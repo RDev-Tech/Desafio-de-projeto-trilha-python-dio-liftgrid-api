@@ -1,0 +1,7 @@
+Lib/
+Scripts/
+Include/
+__pycache__/
+.vscode/
+*.db
+pyvenv.cfg

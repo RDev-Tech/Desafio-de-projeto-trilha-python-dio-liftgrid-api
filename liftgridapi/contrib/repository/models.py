@@ -1,0 +1,3 @@
+from liftgridapi.categorias.models import CategoriaModel
+from liftgridapi.atleta.models import AtletaModel
+from liftgridapi.centro_treinamento.models import CentroTreinamentoModel

@@ -1,0 +1,10 @@
+
+services:
+  db:
+    image: postgres:11-alpine
+    environment:
+      POSTGRES_PASSWORD: liftgridapi
+      POSTGRES_USER: liftgridapi
+      POSTGRES_DB: liftgridapi
+    ports:
+      -  "5432:5432"
